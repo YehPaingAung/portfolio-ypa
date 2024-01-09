@@ -2,7 +2,6 @@ import React from "react";
 
 //import icons
 import { BiHomeAlt, BiUser } from "react-icons/bi";
-import { BsClipboardData, BsBriefcase, BsChatSquareText } from "react-icons/bs";
 import { FaCode } from "react-icons/fa";
 
 //link
