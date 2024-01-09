@@ -9,7 +9,7 @@ const Header = ({ setDarkMode }) => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           {/* logo */}
-          <a href="">
+          <a href="/">
             <Gi3DGlasses className="cursor-pointer text-4xl text-black dark:text-offWhite" />
           </a>
           {/* button */}
