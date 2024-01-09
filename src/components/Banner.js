@@ -65,7 +65,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact Me</button>
+              <a href="tel:+959250616718">
+                <button className="btn btn-lg">Contact Me</button>
+              </a>
               <a
                 href="https://cdn.discordapp.com/attachments/883320802257277038/1194262845945290792/Yeh_Paing_Aungs_Resume_final.pdf?ex=65afb6f2&is=659d41f2&hm=d8b3c5b1fca1fadd078d57257a20dc2dc3d963b0040d7359cefe2b394feaa035&"
                 className="flex flex-row btn-link"

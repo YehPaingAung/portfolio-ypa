@@ -67,7 +67,9 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">Contact me</button>
+              <a href="tel:+959250616718">
+                <button className="btn btn-lg">Contact me</button>
+              </a>
               <a
                 href="https://cdn.discordapp.com/attachments/883320802257277038/1194262845945290792/Yeh_Paing_Aungs_Resume_final.pdf?ex=65afb6f2&is=659d41f2&hm=d8b3c5b1fca1fadd078d57257a20dc2dc3d963b0040d7359cefe2b394feaa035&"
                 className="flex flex-row btn-link"
