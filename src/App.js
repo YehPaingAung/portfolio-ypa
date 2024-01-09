@@ -9,7 +9,7 @@ import Work from "./components/Work";
 // import Contact from "./components/Contact";
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <main className={darkMode ? "dark" : ""}>
       <div className="dark:bg-[#1E1E1E] bg-white bg-no-repeat bg-cover overflow-hidden text-[#555555]">
