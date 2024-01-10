@@ -14,7 +14,7 @@ const Work = () => {
     <section className="section" id="work">
       <div className="container mx-auto mt-32">
         <motion.div
-          variants={fadeIn("left", 0.3)}
+          variants={fadeIn("down", 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
@@ -34,11 +34,11 @@ const Work = () => {
           </div>
         </motion.div>
         <motion.div
-          variants={fadeIn("right", 0.2)}
+          variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex-1 flex flex-row gap-y-10 mt-10"
+          className="flex-1 flex md:flex-row gap-y-10 mt-10 flex-col"
         >
           <a
             href="https://github.com/YehPaingAung/hoobank-project"
@@ -70,7 +70,7 @@ const Work = () => {
             className="cursor-pointer"
           >
             {/* image */}
-            <div className="group relative border-2 border-white/50 rounded-xl overflow-hidden">
+            <div className="group relative border-2 border-white/50 rounded-xl overflow-hidden md:mt-0 mt-10">
               {/* overlay */}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
@@ -91,11 +91,11 @@ const Work = () => {
           </a>
         </motion.div>
         <motion.div
-          variants={fadeIn("left", 0.2)}
+          variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex-1 flex flex-row gap-y-10 mt-10"
+          className="flex-1 flex md:flex-row flex-col gap-y-10 mt-10"
         >
           <a
             href="https://github.com/YehPaingAung/game-hub-project"
@@ -127,14 +127,14 @@ const Work = () => {
             className="cursor-pointer"
           >
             {/* image */}
-            <div className="group relative border-2 border-white/50 rounded-xl overflow-hidden">
+            <div className="group relative border-2 border-white/50 rounded-xl overflow-hidden md:mt-0 mt-10">
               {/* overlay */}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
               <img
                 className="w-[600px] h-[300px] group-hover:scale-125 transition-all duration-500"
                 src={reactQuiz}
-                alt=""
+                alt="react_quiz"
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
